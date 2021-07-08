@@ -1,0 +1,31 @@
+FROM golang:1.16-alpine
+
+ARG CGO_ENABLED=0
+
+RUN go get -u github.com/golang/protobuf@v1.5.0
+RUN go get -u github.com/hashicorp/memberlist@v0.2.4
+RUN go get -u google.golang.org/grpc@v1.39.0
+RUN go get -u github.com/armon/go-metrics@v0.0.0-20180917152333-f0300d1749da
+RUN go get -u github.com/google/btree@v0.0.0-20180813153112-4030bb1f1f0c
+RUN go get -u github.com/hashicorp/go-msgpack@v0.5.3
+RUN go get -u github.com/hashicorp/go-multierror@v1.0.0
+RUN go get -u github.com/hashicorp/go-sockaddr@v1.0.0
+RUN go get -u github.com/miekg/dns@v1.1.26
+RUN go get -u github.com/sean-/seed@v0.0.0-20170313163322-e2103e2c3529
+RUN go get -u github.com/stretchr/testify@v1.5.1
+RUN go get -u github.com/golang/protobuf@v1.5.0
+RUN go get -u github.com/google/go-cmp@v0.5.5
+RUN go get -u golang.org/x/net@v0.0.0-20200822124328-c89045814202
+RUN go get -u github.com/hashicorp/go-immutable-radix@v1.0.0
+RUN go get -u github.com/pascaldekloe/goe@v0.0.0-20180627143212-57f6aae5913c
+RUN go get -u github.com/hashicorp/errwrap@v1.0.0
+RUN go get -u golang.org/x/crypto@v0.0.0-20200622213623-75b288015ac9
+RUN go get -u golang.org/x/sys@v0.0.0-20200323222414-85ca7c5b95cd
+RUN go get -u golang.org/x/sync@v0.0.0-20190423024810-112230192c58
+RUN go get -u github.com/hashicorp/golang-lru@v0.5.0
+RUN go get -u github.com/hashicorp/go-uuid@v1.0.0
+RUN go get -u github.com/davecgh/go-spew@v1.1.1
+RUN go get -u github.com/pmezard/go-difflib@v1.0.0
+RUN go get -u gopkg.in/yaml.v2@v2.2.3
+RUN go get -u golang.org/x/text@v0.3.2
+RUN go get -u golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1
