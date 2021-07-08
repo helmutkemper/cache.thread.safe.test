@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d833d75f-bbee-4a28-94d5-49a9318d74f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/cache.thread.safe.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cache/Dockerfile-iotmaker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cache/files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cache/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile-iotmaker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="d833d75f-bbee-4a28-94d5-49a9318d74f7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

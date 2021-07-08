@@ -36,6 +36,5 @@ necessários para o projeto já baixados.
 Agora abra o `Dockerfile` do projeto e na primeira etapa da imagem, em vez de usar 
 `FROM golang:1.16-alpine AS builder`, use `FROM cache:latest AS builder` e ganhe tempo.
 
-
-
-`build constraints exclude all`
+Caso durante o build da imagem de cache, apareça o erro, `build constraints exclude all` ou algum outro erro,
+apague a linha do erro e deixe o go fazer o download de forma automática.
