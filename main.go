@@ -4,7 +4,6 @@ import (
 	docker "github.com/helmutkemper/iotmaker.docker.builder"
 	dockerNetwork "github.com/helmutkemper/iotmaker.docker.builder.network"
 	"strconv"
-	"time"
 )
 
 func createNetwork() (netDocker *dockerNetwork.ContainerBuilderNetwork, err error) {
@@ -64,7 +63,7 @@ func buildProject(containerName string, netDocker *dockerNetwork.ContainerBuilde
 	// container name container_delete_server_after_test
 	container.SetContainerName(containerName)
 	// set a waits for the text to appear in the standard container output to proceed [optional]
-	container.SetWaitStringWithTimeout("starting server", 10*time.Second)
+	//container.SetWaitStringWithTimeout("starting server", 30*time.Second)
 	// inicialize container object
 	err = container.Init()
 	if err != nil {
@@ -143,7 +142,7 @@ func main() {
 		panic(err)
 	}
 
-	for i := 0; i != 3; i += 1 {
+	for i := 0; i != 2; i += 1 {
 		id := strconv.FormatInt(int64(i), 10)
 		container, err = buildProject("container_delete_after_test_"+id, netDocker)
 		if err != nil {
